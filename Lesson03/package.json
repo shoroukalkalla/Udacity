@@ -4,14 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "src/main2.ts",
+    "start": "src/main3.ts",
     "build": "npx tsc"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/lodash": "^4.14.182",
     "@types/node": "^18.0.3",
     "ts-node": "^10.8.2",
     "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
